@@ -3,28 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <title>Final Project</title>
+        <link rel="stylesheet" href="index.css">
     </head>
 <body>
-    <h>UHON-99H Final Project</h>
-    <p> Written using HTML and JavasScript</p>
+    <h1>UHON-99H Final Project</h1>
+    <div class="disclaimer_class">
+    <disclaimer> Written using HTML and JavasScript</disclaimer>
+    </div>
     <br>
     <br>
     <h2>What I learned from the Corporate World of Coding</h2>
     <table>
-        <thead>
+            <tr>
             <th> Scrums and Meetings </th>
             <th> Coding Languages and Frameworks</th>
-        </thead>
-        <tbody>
-            <td> I participated in daily meetings called scrums where 
-                participants would give an outline of their day
+        </tr>
+            <tr>
+            <td> I participated in daily meetings called scrums where participants would give an outline of their day.
             </td>
             <td>
-                I gained more knowledge of HTML and Javascript pieces
-                and learned about Angular and AngularJS, two coding Frameworks
-                for hosting websites.
+                I gained more knowledge of HTML and JavaScript elements and learned about Angular and AngularJS, two coding Frameworks for hosting websites. One specific HTML item I learned about was making tables, such as this one.
             </td>
-        </tbody>
+        </tr>
     </table>
+    <br>
+    <div class="button_div">
+    <button class="dialog_button" onclick="openDialog()">Why this is Important</button>
+        </div>  
+        <dialog id="dialog">Test</dialog>
+        <script src="index.js"></script>
 </body>
 </html>
