@@ -3,6 +3,16 @@
     text-align:center;
  }
 
+ h2 {
+    padding-left: 25px;
+    font-size: 27px;
+ }
+
+ p {
+    padding-left: 20px;
+    font-family: Geneva;
+ }
+
  disclaimer {
     align-content: center;
     font-style: italic;
@@ -25,9 +35,53 @@
     align-self: center;
 }
 
+.dialog_button {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
 .test {
     text-align: center;
     width: 130px;
     height: 55px;
     font-size: 15px;
+}
+
+#dialog[open] {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    width: 600px;
+    height: 325px;
+}
+
+li {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.close_dialog_button {
+    align-content: center;
+
+}
+
+#network-input {
+    width: 200x;
+    height: 40px;
+}
+
+option {
+    font-size: 25px;
+}
+
+.datalist-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datalist-input {
+    display: flex;
+    flex-direction: column;
+
 }

@@ -3,4 +3,7 @@ const button = document.querySelector(".dialog_button");
 function openDialog() {
     dialog.showModal();
 };
+function closeDialog() {
+    dialog.close()
+}
 
