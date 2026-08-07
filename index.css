@@ -10,7 +10,7 @@
 
  p {
     padding-left: 20px;
-    font-size: 22px;
+    font-size: 25px;
  }
 
  disclaimer {
@@ -84,4 +84,14 @@ option {
     display: flex;
     flex-direction: column;
 
+}
+.image_class {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+
+}
+.my-image{
+    width: 700x;
+    height: 500px;
 }
