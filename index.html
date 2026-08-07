@@ -17,6 +17,7 @@
             <tr>
             <th> Scrums and Meetings </th>
             <th> Coding Languages and Frameworks</th>
+            <th> Artificial Intelligence Usage</th>
         </tr>
             <tr>
             <td> I participated in daily meetings called scrums where participants would give an outline of their day.
@@ -24,13 +25,43 @@
             <td>
                 I gained more knowledge of HTML and JavaScript elements and learned about Angular and AngularJS, two coding Frameworks for hosting websites. One specific HTML item I learned about was making tables, such as this one.
             </td>
+            <td>
+                I learned how AI is used in a company setting - it has to be monitored greatly in usage as it still makes many mistakes
+            </td>
         </tr>
     </table>
     <br>
     <div class="button_div">
     <button class="dialog_button" onclick="openDialog()">Why this is Important</button>
         </div>  
-        <dialog id="dialog">Test</dialog>
+        <br>
+        <dialog id="dialog">
+            <div class="dialog-content">
+                <ul>
+                    <li> Scrums are used by a very high amount of companies in their software development department(s), so it is a good skill to understand how they work </li>
+                    <li> I became more knowledgeable in multiple frame tech frameworks and tools such as HTML, Springboot, and Angular used by a good amount of companies in their software development department(s) </li>
+                    <li> AI is taking over substantial amounts of work in the coding world; being able to use it safely and efficiently is an outstanding skill to have</li>
+                    </ul>
+            </div>
+            <button class="close_dialog_button" onclick="closeDialog()">Close Popup</button>
+        </dialog>
+        <h2> Networking </h2>
+        <p> I got the chance to network with many different individuals at Union Pacific, including other software engineering interns and prominent figures at the company such as CIO Rahul Jalali. I got to learn about their backgrounds and knowledge of computing. </p>
+        <br>
+        <p style="text-align:center"> Why is this important? Click the dropdown below</p>
+        <div class="datalist-div">
+        <input list="datalist-test" value="" id="network-input" name="Why is networking good">
+        </div>
+        <div class="datalist-input">
+        <datalist id="datalist-test">
+            <option value="Connecting with similarly-minded individuals">
+            </option>
+            <option value="Helps you work on your public speaking">
+            </option>
+            <option value="New connections may help you find a job"></option>
+            </option>
+        </datalist>
+    </div>
         <script src="index.js"></script>
 </body>
 </html>
